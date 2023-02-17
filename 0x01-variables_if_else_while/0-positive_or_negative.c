@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* function main return the type of int n, Return 0: Success */
+/**
+ * function main 
+ * return the type of int n
+ * Return: 0: Success 
+ */
 int main(void)
 {
 	int n;
