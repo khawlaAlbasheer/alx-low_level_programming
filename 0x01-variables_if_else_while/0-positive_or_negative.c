@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /**
- * function main generate a random number n
- * return the type of int n
- * Return: 0: Success
+ * main - Enrty point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
