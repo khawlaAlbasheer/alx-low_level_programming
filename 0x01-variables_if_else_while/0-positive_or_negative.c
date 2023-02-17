@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * function main
+ * function main generate a random number n
  * return the type of int n
  * Return: 0: Success
  */
