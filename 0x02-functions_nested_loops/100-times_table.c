@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
- *
- *
- *
- *
- *
+ * print_times_table - Entry point
+ * @n: input
+ * Return: Always 0 (Success)
  */
 void print_times_table(int n)
 {
@@ -25,7 +24,7 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				k = i * j;
-				printf("%d",k);
+				printf("%d", k);
 				if (j != n)
 				{
 					_putchar(',');
