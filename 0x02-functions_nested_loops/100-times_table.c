@@ -34,22 +34,27 @@ void print_times_table(int n)
 				if (j < n)
 				{
 					_putchar(',');
+					if (k < 10)
+					{
+						_putchar(' ');
+						_putchar(' ');
+						_putchar(' ');
+					}
+					else if (k > 9 && k < 100)
+					{
+						_putchar(' ');
+						_putchar(' ');
+					}
+					else if (k > 99 && k < 1000)
+					{
+						_putchar(' ');
+					}
 				}
-				if (k < 10)
+				else
 				{
 					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
 				}
-				else if (k > 9 && k < 100)
-				{
-					_putchar(' ');
-					_putchar(' ');
-				}
-				else if (k > 99 && k < 1000)
-				{
-					_putchar(' ');
-				}
+				
 				
 
 			}
