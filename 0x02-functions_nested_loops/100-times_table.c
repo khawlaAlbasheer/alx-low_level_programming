@@ -32,6 +32,9 @@ void print_times_table(int n)
 					_putchar(' ');
 				}
 				else
+				{
+					continue;
+				}
 
 			}
 			_putchar('\n');
