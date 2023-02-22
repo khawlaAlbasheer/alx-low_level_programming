@@ -28,10 +28,7 @@ void print_times_table(int n)
 				{
 					_putchar((k / 10) + '0');
 				}
-				else
-				{
-					_putchar(' ');
-				}
+				
 				_putchar((k % 10) + '0');
 				
 				if (j < n)
