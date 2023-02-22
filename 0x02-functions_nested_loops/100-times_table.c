@@ -21,18 +21,26 @@ void print_times_table(int n)
 	{
 		for (i = 0; i <= n; i++)
 		{
+			_putchar('0');
+			_putchar(',');
+			_putchar(' ');
 			for (j = 0; j <= n; j++)
 			{
-				k = i * j;
-				printf("%d", k);
-				if (j != n)
+				k = (i * j);
+				if ((k / 10) > 0)
 				{
-					_putchar(',');
-					_putchar(' ');
+					_putchar((k / 10) + '0');
 				}
 				else
 				{
-					continue;
+					_putchar(' ');
+				}
+				_putchar((k / 10) + '0');
+				
+				if (j < n)
+				{
+					_putchar(',');
+					_putchar(' ');
 				}
 
 			}
