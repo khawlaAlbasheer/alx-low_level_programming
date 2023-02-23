@@ -5,18 +5,18 @@
 *print_numbers - prints the numbers from 0 to 9
 * followd by a new line
 *
-* Return: no return vakue
+* Return: no return value
 */
 void print_numbers(void)
 {
 	int i;
 
-	i = 0;
-	while (i < 10)
+	i = 48;
+	while (i < 58)
 	{
-		printf('%d', i);
+		_putchar(i);
 		i++;
 	}
-	printf('\n');
+	_putchar(10);
 
 }
