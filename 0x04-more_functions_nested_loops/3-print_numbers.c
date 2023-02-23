@@ -13,7 +13,7 @@ void print_numbers(void)
 	i = 0;
 	while (i < 10)
 	{
-		printf(i);
+		printf('%d', i);
 		i++;
 	}
 	printf('\n');
