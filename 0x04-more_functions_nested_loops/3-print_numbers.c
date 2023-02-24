@@ -11,12 +11,10 @@ void print_numbers(void)
 {
 	int i;
 
-	i = 48;
-	while (i < 58)
+	for (i = 48; i < 58; i++
 	{
-		_putchar(i);
-		i++;
+	printf("%c", i);
 	}
-	_putchar(10);
+	printf("\n");
 
 }
