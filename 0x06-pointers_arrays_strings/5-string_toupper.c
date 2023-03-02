@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase.
- *@tr: pointer to string.
+ *@str: pointer to string.
  *
  *Return: pointer to uppercase string.
  */
@@ -13,7 +13,7 @@ char *string_toupper(char *str)
 	length = 0;
 	while (str[length] != '\0')
 	{
-		if(str[length] >= 97 && str[length] <= 122)
+		if (str[length] >= 97 && str[length] <= 122)
 		{
 			str[length] = str[length] - 32;
 		}
