@@ -1,5 +1,9 @@
 #include "main.h"
 /**
+ * _strspn - counts ho many times a ginev char in string
+ * @s: string
+ * @accept: char
+ * Return: number of char in s
  */
 unsigned int _strspn(char *s, char *accept)
 {
