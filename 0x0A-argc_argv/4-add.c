@@ -8,23 +8,23 @@
  */
 int main(int argc, char **argv)
 {
-	int i, sum;
+	int i, sum, convert;
 
 	sum = 0;
 	if (argc == 1)
 	{
-		printf("0");
+		printf("%d\n", sum);
 		return (0);
 	}
 	else
 	{
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
-			if (isdigit(argv[i]))
+			convert = atoi(argv[i]);
+			if (convert > 0)
 			{
-				sum += argv[i];
-				printf("%d\n", sum);
-				return (0);
+				sum += convert;
+
 			}
 			else
 			{
@@ -32,5 +32,7 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
+		printf("%d\n", sum);
+		return (0);
 	}
 }
